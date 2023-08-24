@@ -207,7 +207,7 @@ button {
 }
 
 .user-ticket-info span {
-  color: var(--purple-normal, #8860E6);
+  color: var(--gray-dark, #ff8400);
   text-align: center;
   font-family: Space Grotesk;
   font-size: 12px;
