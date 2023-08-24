@@ -182,6 +182,7 @@ button {
 
 .semestre{
   font-size: 10px;
+  margin-bottom: 5px;
 }
 
 .info {
@@ -190,6 +191,7 @@ button {
   padding: 12px;
   background: var(--gray-light, #F3F4FE);
   color: var(--gray-dark, #202024);
+
 }
 
 .user-ticket-info {
