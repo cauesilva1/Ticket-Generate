@@ -1,4 +1,3 @@
-  // import html2canvas from '/node_modules/html2canvas/dist/html2canvas.esm.js';
   import html2canvas from '/html2canvas/dist/html2canvas.esm.js';
 
 

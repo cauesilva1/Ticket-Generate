@@ -161,6 +161,7 @@ button {
   width: 13rem;
   height: 4rem;
   transition: 0.3s;
+  display: none;
 }
 
 .Download:hover{
