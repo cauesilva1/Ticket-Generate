@@ -112,13 +112,13 @@ input::placeholder {
 }
 
 button {
-  display: flex;
+   display: flex;
   padding: 22px 40px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   align-self: stretch;
-  background: var(--purple-normal, #123602);
+  background: var(--black-normal, #FA8100);
   cursor: pointer;
 
   color: var(--neutral-colors-white, #ffffff);
@@ -129,11 +129,12 @@ button {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  border-radius: 15px;
 }
 
 .ticket {
   display: flex;
-  background-image: url('assets/bg-card-ticket.png');
+  background-image: url('assets/bg-card-ticket.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 694px;
@@ -242,9 +243,9 @@ button {
 }
 
 .event-ticket-info span {
-  color: var(--gray-dark, #202024);
+  color: var(--gray-dark, #ff8400);
   font-family: Space Grotesk;
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
@@ -254,7 +255,7 @@ button {
 }
 
 .event-ticket-info span:nth-child(2) {
-  color: var(--gray-dark, #202024);
+  color: var(--gray-dark, #FA8100);
   font-family: Space Grotesk;
   font-size: 10px;
   font-style: normal;
