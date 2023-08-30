@@ -49,7 +49,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   max-width: 350px;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 label {
@@ -70,7 +70,7 @@ label {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 1rem;
+  margin-top: 0.4rem;
   margin-bottom: 1rem;
   background: var(--gray-light, #F3F4FE);
   padding: 16px 12px;
@@ -160,7 +160,8 @@ button {
   justify-content: center;
   /* display: none; */
   margin-left: 15rem;
-  margin-top: 1rem;
+  transform: translateX(35rem) ;
+  position: absolute;
   width: 13rem;
   height: 4rem;
   transition: 0.3s;
