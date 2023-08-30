@@ -275,7 +275,7 @@ button {
   body{
     min-height: 100vh;
     background: url('./assets/img-hero.png');
-    padding-top: 10rem;
+    padding-top: 13rem;
   }
 
   .container {
@@ -326,7 +326,7 @@ button {
     background-color: #1f1f1fab;
     border: #F3F4FE;
     border-radius: 10px;
-    transform: translateX(-8rem);
+    transform: translateX(-9rem);
     width: 13rem;
     height: 4rem;
     transition: 0.3s;
