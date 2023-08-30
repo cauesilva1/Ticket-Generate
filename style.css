@@ -31,7 +31,7 @@ body {
   height: 366px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  transform: translateY(-5rem);
 }
 
 .content h1 {
@@ -49,7 +49,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   max-width: 350px;
-  margin-bottom: 35px;
+  margin-bottom: 2rem;
 }
 
 label {
@@ -70,6 +70,8 @@ label {
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background: var(--gray-light, #F3F4FE);
   padding: 16px 12px;
 }
@@ -264,4 +266,85 @@ button {
   /* 160% */
   letter-spacing: 1.05px;
   text-transform: uppercase;
+}
+
+@media (max-width: 450px ) {
+  
+
+  body{
+    min-height: 100vh;
+    background: url('./assets/img-hero.png');
+    padding-top: 5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 35rem;
+    margin: 0;
+  }
+
+  .container h1{
+    display: flex;
+    width: 100%;
+  }
+
+
+  .content {
+    margin: 0.5rem;
+    display: flex; 
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+
+  .ticket {
+    display: flex;
+    background-image: url('assets/bg-card-ticket.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    width: 25rem;
+    height: auto;
+    flex-direction: column;
+  }
+  
+  .ticket-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 45px;
+  }
+
+  .Download{
+    background-color: #1f1f1fab;
+    border: #F3F4FE;
+    border-radius: 10px;
+    transform: translateX(-8rem);
+    width: 13rem;
+    height: 4rem;
+    transition: 0.3s;
+    display: none;
+  }
+  
+  .Download:hover{
+    background-color: #1f1f1fda;
+  
+  
+    border: #F3F4FE;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+    margin-left: 15rem;
+    margin-top: 1rem;
+    width: 13rem;
+    height: 4rem;
+  }
 }
