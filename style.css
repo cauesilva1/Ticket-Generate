@@ -274,7 +274,7 @@ button {
   body{
     min-height: 100vh;
     background: url('./assets/img-hero.png');
-    padding-top: 5rem;
+    padding-top: 10rem;
   }
 
   .container {
